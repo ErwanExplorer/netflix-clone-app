@@ -15,7 +15,7 @@ const Home = () => {
                 isPoster={true}
             />
             <Row title="Tendances actuelles"
-                fetchUrl={requests.fetchTopRated}
+                fetchUrl={requests.fetchHorrorMovies}
             />
             <Row title="Films documentaires"
                 fetchUrl={requests.fetchDocumentaries}
